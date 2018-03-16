@@ -5,12 +5,24 @@ and outputs the ordered cartesian product of combinations.
 
 ```javascript
 let combos = OrderedCartisianProduct(
-  ["x", "y],
+  ["x", "y"],
   {
     "x": [1, 2, 3],
     "y": [4, 5, 6]
   }
 )
 console.log(combos);
-// [{"x": 1, "y": 4}, {"x": 1, "y": 5}, {"x": 1, "y": 6}, {"x": 2, "y": 4}, {"x": 2, "y": 5}, {"x": 2, "y": 6}, {"x": 3, "y": 4}, {"x": 3, "y": 5}, {"x": 3, "y": 6}]
+/*
+[
+  {"x": 1, "y": 4},
+  {"x": 1, "y": 5},
+  {"x": 1, "y": 6},
+  {"x": 2, "y": 4},
+  {"x": 2, "y": 5},
+  {"x": 2, "y": 6},
+  {"x": 3, "y": 4},
+  {"x": 3, "y": 5},
+  {"x": 3, "y": 6}
+]
+*/
 ```
