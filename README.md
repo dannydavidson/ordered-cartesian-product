@@ -4,7 +4,7 @@ Function that takes an ordering sequence and a mapping of dimensions
 and outputs the ordered cartesian product of combinations.
 
 ```javascript
-let combos = OrderedCartisianProduct(
+let combos = OrderedCartesianProduct(
   ["x", "y"],
   {
     "x": [1, 2, 3],
