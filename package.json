@@ -1,0 +1,22 @@
+{
+  "name": "ordered-cartesian-product",
+  "version": "1.0.0",
+  "description": "Generate the cartesian product of an ordered set of fields",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "mocha -w",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^23.0.0-alpha.0",
+    "mocha": "^5.0.4",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "cartesian-product": "2.1.2"
+  }
+}

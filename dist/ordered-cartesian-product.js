@@ -1,0 +1,7 @@
+/*!
+ * ordered-cartesian-product v1.0.0
+ * 
+ * Generate the cartesian product of an ordered set of fields
+ */
+var OrderedCartesianProduct=function(r){var e={};function n(t){if(e[t])return e[t].exports;var o=e[t]={i:t,l:!1,exports:{}};return r[t].call(o.exports,o,o.exports,n),o.l=!0,o.exports}return n.m=r,n.c=e,n.d=function(r,e,t){n.o(r,e)||Object.defineProperty(r,e,{configurable:!1,enumerable:!0,get:t})},n.r=function(r){Object.defineProperty(r,"__esModule",{value:!0})},n.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return n.d(e,"a",e),e},n.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},n.p="",n(n.s=1)}([function(r,e,n){"use strict";r.exports=function(r){if(!Array.isArray(r))throw new TypeError;var e=r.length-1,n=[];return r.length?function t(o,u){for(var a=r[u],c=u===e,i=0;i<a.length;++i){var f=o.slice();f.push(a[i]),c?n.push(f):t(f,u+1)}}([],0):n.push([]),n}},function(r,e,n){var t=n(0);r.exports=function(r,e){let n=r.map(r=>{if(!e[r])throw new Error('Each "order" key must have a corresponding array in "values"');return e[r]});return t(n).map(e=>{var n={};return e.forEach((e,t)=>{n[r[t]]=e}),n})}}]);
+//# sourceMappingURL=ordered-cartesian-product.js.map
